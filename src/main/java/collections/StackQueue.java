@@ -17,12 +17,12 @@ public class StackQueue {
         queue.offer("1");
         queue.offer("2");
         queue.offer("3");
-
+        //스택은 접시와 같고
         System.out.println("=Stack=");
         while (!stack.empty()) {
             System.out.println("s = " + stack.pop());
         }
-
+        //큐는 줄과 같다.
         System.out.println("=queue");
         while (!queue.isEmpty()) {
             System.out.println("q = " + queue.poll());

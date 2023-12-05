@@ -23,7 +23,15 @@ public class JavaCollections {
 //        }
 
         LinkedList<Integer> li = new LinkedList<>();
+        li.offer(1);
+        li.offer(2);
+        li.offer(3);
+        for (Integer integer : li) {
 
+            System.out.println("integer = " + integer);
+        }
+        System.out.println("li.pop() = " + li.pop());
+        
     }
 
 
